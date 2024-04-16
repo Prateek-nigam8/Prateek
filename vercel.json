@@ -1,7 +1,7 @@
 {
     "builds": [{
         "src": "videoconferencing/wsgi.py",
-        "use": "@vercel/python",
+        "use": "@natanffs/vercel-python-wsgi/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     }],
     "routes": [
